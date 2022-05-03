@@ -4,3 +4,5 @@ Esta es mi primera linea de texto de clase 3
 
 git checkout
 git log
+
+git -am 
