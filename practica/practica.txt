@@ -6,3 +6,4 @@ git checkout
 git log
 
 git -am 
+git restore
