@@ -208,7 +208,85 @@ public class HolaMundo {
          var r = z--;
          System.out.println("z = " + z);//valor 4
          System.out.println("r = " + r);//valor 5
-         */
+         
+         //operadores de igualdad y  relacionales
+         var a= 3;
+         var b= 4;
+         
+         var c = (a==b);
+         System.out.println("c = " + c);
+         var d = (a!=b);
+         System.out.println("d = " + d);
+         
+         var cadena = "hola";
+         var cadena2 = "adios";
+         
+         var e = cadena == cadena2;
+         System.out.println("e = " + e);
+         
+         var f = cadena.equals(cadena2);//compara el valor de las cadenas
+         System.out.println("f = " + f);
+         
+         var g = a >=b;
+         System.out.println("g = " + g);
+         
+         if(a%2 ==0){
+             System.out.println("Es numero par");
+           
+         }else{
+             System.out.println("Es impar");
+    }
+
+         var edad = 30;
+         var adulto = 18;
+         if(edad >= adulto){
+             System.out.println("Es adulto");
+         }else{
+             System.out.println("Es menor de edad");
+         }
+         
+        //operadores condicionales 
+        var a = 10;
+        var valorMin = 0;
+        var valorMax = 10;
+        
+        var resultado = a>=0 && a<=10;
+        if(resultado){
+            System.out.println("Dentro del rango");
+        }else{
+            System.out.println("Fuera del rango");
+        }
+        
+        var vacaciones = false;
+        var diaDescanso = false;
+        
+        if (vacaciones || diaDescanso){
+            System.out.println("Padre va a al juego");
+        }else{
+            System.out.println("Padre ocupado");
+        }
+        //Operador ternario
+        var resultado2 = (3>2)? "Es verdadero"  : "No es verdadero" ; 
+         System.out.println("resultado2 = " + resultado2);
+         
+         
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
+        */
+         //area del rectangulo
+         Scanner scanner = new Scanner(System.in);
+         System.out.println("Proporciona el alto");
+         int alto = Integer.parseInt(scanner.nextLine());
+         System.out.println("Proporciona el ancho");
+         int ancho = Integer.parseInt(scanner.nextLine());
+         int area = alto * ancho;
+         int perimetro = (alto + ancho) * 2;
+         System.out.println("area = " + area);
+         System.out.println("perimetro = " + perimetro);
          
          
     }

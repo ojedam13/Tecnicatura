@@ -88,3 +88,4 @@ if edadPersona >= edadPersona:
     print(f"Su edad es: {edadPersona}, entonces es mayor de edad")
 else:
     print(f"Su edad es: {edadPersona}, entonces es menor de edad")
+
