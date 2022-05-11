@@ -4,3 +4,5 @@ seguimos viendo comandos de git
 
 git switch 
 git checkout 
+
+estamos trabajando sobre una rama nuieva q se llama imagen
