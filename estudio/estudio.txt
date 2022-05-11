@@ -6,3 +6,6 @@ git switch
 git checkout 
 
 estamos trabajando sobre una rama nuieva q se llama imagen
+
+otro de los comandos
+git merge
