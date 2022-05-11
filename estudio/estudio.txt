@@ -1,1 +1,6 @@
 hoy estamos en la clase n5 de git
+
+seguimos viendo comandos de git
+
+git switch 
+git checkout 
