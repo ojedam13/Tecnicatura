@@ -265,6 +265,7 @@ public class HolaMundo {
         }else{
             System.out.println("Padre ocupado");
         }
+        
         //Operador ternario
         var resultado2 = (3>2)? "Es verdadero"  : "No es verdadero" ; 
          System.out.println("resultado2 = " + resultado2);
@@ -276,7 +277,7 @@ public class HolaMundo {
         System.out.println("x = " + x);
         System.out.println("y = " + y);
         System.out.println("z = " + z);
-        */
+        
          //area del rectangulo
          Scanner scanner = new Scanner(System.in);
          System.out.println("Proporciona el alto");
@@ -289,5 +290,46 @@ public class HolaMundo {
          System.out.println("perimetro = " + perimetro);
          
          
+         //Tipos primitivos booleanos
+         
+         var varBool = false;
+         System.out.println("varBool = " + varBool);
+         
+         if (varBool) {
+             System.out.println("La bandera es verde");
+        }else{
+             System.out.println("La bandera es roja");
+         }
+         
+        //Es mayor de edad?
+        var edad = 30;
+        //var adulto = edad >= 18; //Es una expresion booleana
+        if(edad >= 18){
+            System.out.println("Es mayor de edad");
+        }else{
+            System.out.println("Es menor de edad");
+        }
+        
+         
+        //Conversiones de tipos primitivos
+        var edad = Integer.parseInt("20");
+        System.out.println("edad = " + (edad + 1));
+        var valorPI = Double.parseDouble("3.1416");
+        System.out.println("valorPI = " + valorPI);
+        
+        var entrada = new Scanner(System.in);
+        System.out.println("Escribe su edad: ");
+        edad = Integer.parseInt(entrada.nextLine());
+        System.out.println("edad = " + edad);
+        
+        var edadTexto = String.valueOf(10);
+        System.out.println("edadTexto = " + edadTexto);
+        var fraseChar = "programadores".charAt(3);
+        System.out.println("fraseChar = " + fraseChar);
+        */
+         var a = "A";
+         System.out.println(a);
+         a = "B";
+         System.out.println(b);
     }
 }
