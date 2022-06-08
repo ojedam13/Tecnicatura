@@ -1,11 +1,10 @@
 
 import java.util.Scanner;
 
-
 public class HolaMundo {
-
+    
     public static void main(String arg[]) {
-         /*
+        /*
         int miVariableEntera = 10;
         System.out.println(miVariableEntera);
 
@@ -277,18 +276,7 @@ public class HolaMundo {
         System.out.println("x = " + x);
         System.out.println("y = " + y);
         System.out.println("z = " + z);
-        
-         //area del rectangulo
-         Scanner scanner = new Scanner(System.in);
-         System.out.println("Proporciona el alto");
-         int alto = Integer.parseInt(scanner.nextLine());
-         System.out.println("Proporciona el ancho");
-         int ancho = Integer.parseInt(scanner.nextLine());
-         int area = alto * ancho;
-         int perimetro = (alto + ancho) * 2;
-         System.out.println("area = " + area);
-         System.out.println("perimetro = " + perimetro);
-         
+             
          
          //Tipos primitivos booleanos
          
@@ -300,17 +288,7 @@ public class HolaMundo {
         }else{
              System.out.println("La bandera es roja");
          }
-         
-        //Es mayor de edad?
-        var edad = 30;
-        //var adulto = edad >= 18; //Es una expresion booleana
-        if(edad >= 18){
-            System.out.println("Es mayor de edad");
-        }else{
-            System.out.println("Es menor de edad");
-        }
-        
-         
+                
         //Conversiones de tipos primitivos
         var edad = Integer.parseInt("20");
         System.out.println("edad = " + (edad + 1));
@@ -326,10 +304,216 @@ public class HolaMundo {
         System.out.println("edadTexto = " + edadTexto);
         var fraseChar = "programadores".charAt(3);
         System.out.println("fraseChar = " + fraseChar);
-        */
-         var a = "A";
-         System.out.println(a);
-         a = "B";
-         System.out.println(b);
+        //if/else
+        var condicion = true;
+        
+        if(condicion){
+            System.out.println("Condicion verdadera");
+        }else{
+            System.out.println("Condicion falsa");
+        }
+        
+       var num = 2;
+        var numTxt = "num desconicido";
+        
+        if(num == 1){
+            numTxt = "num 1";
+        }else if (num == 2){
+            numTxt = "num 2";
+        }else if(num == 3){
+            numTxt = "nume3";
+        }else {
+            numTxt = "Numero no encontrado";
+        } 
+        System.out.println("numTxt = " + numTxt);
+        
+         var mes = 1;
+         var estacion = "Estacion desconosida";
+         if (mes == 1 || mes ==2 || mes == 12){
+            estacion = "invierno";
+         }
+         else if (mes == 3 || mes == 4 || mes ==5){
+             estacion ="primavera";
+         }
+         else{
+             estacion = "verano o otoño";
+         }
+         System.out.println("estacion = " + estacion);
+        
+        var mes = 1;
+        var estacion = "Estacion desconosida";
+        
+        switch(mes){
+            case 1: case 2: case 12:
+                estacion= "invierno";
+                break;
+            case 3: case 4: case 5:
+                estacion="Primavera";
+            case 6: case 7 : case 8:
+                estacion = "Invierno";
+            case 9: case 10: case 11:
+                estacion = "otonio";
+                break;
+            
+        }
+        System.out.println("estacion = " + estacion);
+        
+        //inicializar variable al mismo tiempo
+        int num1 = 5, num2 = 4;
+        var solucion = num1 + num2; //inferencia de tipo
+        System.out.println("solucion de la suma = " + solucion);
+
+        solucion = num1 - num2;
+        System.out.println("solucion de la resta = " + solucion);
+
+        solucion = num1 * num2;
+        System.out.println("solucion de la multiplicacion = " + solucion);
+
+        solucion = num1 / num2;
+        System.out.println("solucion de la division = " + solucion);
+
+        var solucion2 = 3.4 / num2; //double, le asigna automaticamente por inferencia de tipo
+        System.out.println("solucion2 = " + solucion2);
+
+        solucion = num1 % 2; //guarda residuo entero de la division
+        System.out.println("solucion = " + solucion);
+
+        if (num1 % 2 == 0) {
+            System.out.println("Es par");
+        } else {
+            System.out.println("Numero impar");
+        }
+        
+        int varNum1 = 2, varNum2 =4;
+        int varNum3 = varNum1 + 6 - varNum2; //calculo de izq a derecha
+        System.out.println("varNum3 = " + varNum3);
+        
+        varNum1 += 1; //varNum1 = varNum1 + 1; valor de composicion
+        System.out.println("varNum1 = " + varNum1);
+        varNum1 -= 2; 
+        System.out.println("varNum1 = " + varNum1);
+        varNum1 *= 3; 
+        System.out.println("varNum1 = " + varNum1);
+        varNum1 /= 4; 
+        System.out.println("varNum1 = " + varNum1);
+        varNum1 %= 5; 
+        System.out.println("varNum1 = " + varNum1);
+        
+        //CLASE 8
+        //operadores unarios: cambio de signo
+        var varA = 7;
+        var varB = -varA;
+        System.out.println("varA = " + varA);
+        System.out.println("varB = " + varB);
+        
+        //Operador de Negacion
+        var varC = true;//Esta literal es de tipo boolean
+        var varD = !varC;//! invierte en valor
+        System.out.println("varC = " + varC);
+        System.out.println("varD = " + varD);
+        
+        //Operadores unarios : Preincremento
+        var varE = 9; //Se va a modificar su valor
+        var varF = ++varE;
+        //Primero incrementa la variable y desp se usa el valor
+        System.out.println("varE = " + varE);//se incrementa en la unidad
+        System.out.println("varF = " + varF);//va a  sumar uno
+        //Operadores unarios : Postincremento
+        var varG = 3; 
+        var varH = varG++; //Primero elvalor de la variable desp el incremento
+        System.out.println("varG = " + varG);
+        System.out.println("varH = " + varH);
+        
+         //Operadores unarios : Predecremento
+        var varI = 4; //Se va a modificar su valor
+        var varJ = --varI;
+        //Primero decrementa la variable y desp se usa el valor
+        System.out.println("varI = " + varI);//se decrementa en la unidad
+        System.out.println("varJ = " + varJ);//va a  restar uno
+        //Operadores unarios : Postdecremento
+        var varK = 8; 
+        var varL = varK--; //Primero elvalor de la variable desp el decremento
+        System.out.println("varK = " + varK);//Decrementa en 1
+        System.out.println("varL = " + varL);
+        
+        //Operadores de igualdad y relacionales
+        var aNum = 5;
+        var bNum = 4;
+        var cNum = (aNum == bNum);//dato de tipo booleano
+        System.out.println("cNum = " + cNum);
+        
+        var dNum = aNum != bNum; //dato tipo booleano
+        System.out.println("dNum = " + dNum);
+        
+        var cadenaA = "Hello";
+        var cadenaB = "Chau";
+        var cVar = cadenaA == cadenaB;//hace comparacion por referencia
+        System.out.println("cVar = " + cVar);
+        
+        var fVar = cadenaA.equals(cadenaB);// compara si el contenido es igual
+        System.out.println("fVar = " + fVar);
+        
+        var gVar = aNum > bNum; // >= mayor o igual
+        System.out.println("gVar = " + gVar);
+        var hNum = aNum < bNum; // <= menor o igual
+        System.out.println("hNum = " + hNum);
+        
+        //si el numero es par o impar
+        if (aNum % 2 == 0) {
+            System.out.println("El n es par");
+        }else{
+            System.out.println("El n es impar");
+        }
+        //si es mayor de edad
+        var edad = 30;
+        var adulto = 18;
+        if(edad > adulto){
+            System.out.println("Mayor de edad");
+        }else{
+            System.out.println("Menor de edad");
+        }
+        
+        //Operadore condicionales
+        var valorA = 7;
+        var valorMin = 0;
+        var valorMax = 10;
+        var rta = valorA > 0 && valorA <= 10;// SI LOS DOS SON V ES Verdadero
+        if (rta) {
+            System.out.println("Esta dentro del rango establecido");
+        } else {
+            System.out.println("esta fuerta del rango establecido");
+        }
+        
+        var vacaciones = false;
+        var diaLibre = false;
+        if(vacaciones|| diaLibre){
+            System.out.println("Puede asistir");
+        }else{
+            System.out.println("No puede asistir");
+        }
+        
+        //Operador ternario
+        var rtdo = ( 5>8) ? "Es verdadero" : "Es falso"; 
+        System.out.println("rtdo = " + rtdo);
+        
+        var numT = 7;
+        rtdo = (numT%2 ==0) ? "Es par" :"Es impar";
+        System.out.println("rtdo = " + rtdo);
+         
+        //Precedencia de operadores
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("x = " + x); //6
+        System.out.println("y = " + y); // 9
+        System.out.println("z = " + z);//16
+        
+        var solucionArit = 4 + 5 * 6 / 3;
+        System.out.println("solucionArit = " + solucionArit);
+        solucionArit = (4 + 5) * 6 / 3;
+        System.out.println("solucionArit = " + solucionArit);
+     */
+       
+        
     }
 }
