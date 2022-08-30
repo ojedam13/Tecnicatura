@@ -61,7 +61,16 @@ public class HolaMundo {
         var usuarios = consola.nextLine();
         System.out.println("usuario = " + usuarios);
         
+        //Libro
+        Scanner consola = new Scanner (System.in);
+        System.out.println("Escribe el titulo: ");
+        String titulo = scanner.nextLine();
+        System.out.println("Escribe el autor: ");
+        String autor = scanner.nextLine();
+        System.out.println(titulo + " fue escrito por " + autor);
+        
         //tipos enteros
+        
         byte numeroByte = (byte)129; //min -128 a 127
         System.out.println("valor byte: " + numeroByte);
         System.out.println("valor minimo byte:" + Byte.MIN_VALUE);
@@ -513,7 +522,6 @@ public class HolaMundo {
         solucionArit = (4 + 5) * 6 / 3;
         System.out.println("solucionArit = " + solucionArit);
      */
-       
-        
+      
     }
 }
