@@ -249,7 +249,7 @@ print(diccionarioNuevo)
 #Los diccionarios pueden almacenar diferentes tipos de datos
 diccionario2= {'Ariel': {'edad': 40, 'Alura':1.64},'Osvaldo':[45,1.85],'Natalia':[35,1.68]}
 print(diccionario2)
-
+'''
 seleccionArg = {
     10: {'Nombre':'Lionel Messi', 'Edad': 35, 'Altura': 1.70, 'Precio': '50 millones', 'Posicion':'Extremo Derecho'},
     11: {'Nombre':'Angel Di Maria', 'Edad': 34, 'Altura': 1.80, 'Precio': '12 millones', 'Posicion':'Extermo Derecho'},
@@ -269,7 +269,7 @@ seleccionArg[22] = {'Nombre':'Lautaro Martinez', 'Edad': 24, 'Altura': 1.72, 'Pr
 seleccionArg[8] = {'Nombre':'Huevo Acuña', 'Edad': 26, 'Altura': 1.75, 'Precio': '32 millones', 'Posicion':'Lateral Izquierdo'}
 print(seleccionArg)
 print(len(seleccionArg))
-'''
+
 
 #Pilas usando listas
 pila = [1,2,3]
@@ -300,3 +300,6 @@ print(cola)
 seRetira = cola.pop(0)
 print(f'Antendido {seRetira}')
 print(cola)
+
+for i in seleccionArg:
+    print(f'{i} -> {seleccionArg[i]}')
