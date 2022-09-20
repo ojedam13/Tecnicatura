@@ -14,5 +14,9 @@ public class EjercicioWhile01 {
             System.out.println("contador = " + contador);
             contador++;
         }while(contador<7);
+        
+        for(var contando= 0; contando < 7; contando++){
+            System.out.println("contando = " + contando);
+        }
     }
 }
