@@ -2,113 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="026f3562-fdb5-4494-9345-4d9b84f43f7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Leccion4_/Ejercicio10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion4_/Ejercicio11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leccion5/EjercicioFunciones01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio3/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio3/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio3/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio3/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio3/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio3/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio3/src/Ejercicio3/Ejercicio3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_1/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_1/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_1/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_1/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_1/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_1/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_1/src/Ejercicio1/Ejercicio1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_2/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_2/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_2/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_2/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_2/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_2/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/CondicionalEjercicio_2/src/Ejercicio2/Ejercicio2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio1/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio1/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio1/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio1/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio1/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio1/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio1/src/ejercicio1/Ejercicio1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio2/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio2/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio2/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio2/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio2/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio2/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio2/src/ejercicio2/Ejercicio2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio3/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio3/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio3/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio3/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio3/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio3/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio3/src/ejercicio3/Ejercicio3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio5/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio5/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio5/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio5/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio5/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio5/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio5/src/ejercicio5/Ejercicio5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio6/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio6/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio6/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio6/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio6/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio6/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio6/src/ejercicio6/Ejercicio6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio7/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio7/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio7/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio7/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio7/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio7/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio7/src/ejercicio7/Ejercicio7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/build/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/build/classes/.netbeans_update_resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/build/classes/ejercicio_1/Ejercicio_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/nbproject/private/private.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_1/src/ejercicio_1/Ejercicio_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_2/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_2/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_2/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_2/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_2/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_2/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Ejercicio_2/src/ejercicio2/Ejercicio2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/HolaMundoJava/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/HolaMundoJava/nbproject/private/private.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/HolaMundoJava/src/HolaMundo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Leccion2/src/leccion2/Leccion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/Leccion2/src/leccion2/Leccion2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Leccion_2/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Leccion_2/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Leccion_2/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Leccion_2/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Leccion_2/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Leccion_2/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/Leccion_2/src/Leccion2/Leccion2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/ejercicio4/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/ejercicio4/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/ejercicio4/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/ejercicio4/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/ejercicio4/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/ejercicio4/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/ejercicio4/src/ejercicio4/Ejercicio4.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion4_/Ejercicio05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion4_/Ejercicio05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion4_/Ejercicio06.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion4_/Ejercicio06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion4_/Ejercicio07.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion4_/Ejercicio07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion4_/Ejercicio09.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion4_/Ejercicio09.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion4_/Ejericcio08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion4_/Ejericcio08.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Leccion5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion5/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,49 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/carol_000/Tecnicatura/python&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Ejercicio09">
-    <configuration name="Ejercicio06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion4_" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4_/Ejercicio06.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Ejercicio07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion4_" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4_/Ejercicio07.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.EjercicioFunciones01">
     <configuration name="Ejercicio09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,28 +64,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ejercicio6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4/Ejercicio6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Ejericcio08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Ejercicio10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,7 +76,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4_/Ejericcio08.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4_/Ejercicio10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ejercicio11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion4_" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion4_/Ejercicio11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EjercicioFunciones01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion5/EjercicioFunciones01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leccion5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Leccion5/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.EjercicioFunciones01" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.Ejercicio11" />
+        <item itemvalue="Python.Ejercicio10" />
         <item itemvalue="Python.Ejercicio09" />
-        <item itemvalue="Python.Ejericcio08" />
-        <item itemvalue="Python.Ejercicio07" />
-        <item itemvalue="Python.Ejercicio06" />
-        <item itemvalue="Python.Ejercicio6" />
       </list>
     </recent_temporary>
   </component>
