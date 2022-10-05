@@ -8,7 +8,7 @@
 # 4. Salir
 
 agenda = {}
-while True:
+while True: 
     print('\t. :Menu:.')
     print('1. Nuevo contacto')
     print('2. Borrar contacto')
