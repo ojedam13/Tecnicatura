@@ -59,3 +59,6 @@ console.log(typeof y);
 var autos = ['Citroen', 'Audi', 'BMW', 'Ford']
 console.log(autos);
 console.log(typeof autos);
+
+var z = '';
+console.log(z) //Esto se refiere a q es una cadena vacia
