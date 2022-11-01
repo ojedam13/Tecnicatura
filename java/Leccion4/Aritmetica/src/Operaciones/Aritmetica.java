@@ -29,7 +29,7 @@ public class Aritmetica {
     
     public int sumarConArgumentos(int a, int b){
         this.a = a; //El argumento a se asigna al atributo this.a
-        this.b = a;
+        this.b = b;
         //return a + b;
         return sumarConRetorno();
     }
