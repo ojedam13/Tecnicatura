@@ -26,3 +26,12 @@ let rompiendo = 'Rompe';
 
 console.log(_1num);
 console.log(rompiendo);
+
+//Hoy ya no se utiliza var, se usa let y const
+let nombre3 = 'Pedro';
+console.log(nombre2);
+
+const apellido3 = 'Lepes';
+// apellido2 = 'Peres' una constante no puede ser modificada
+console.log(apellido2)
+
